@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model Before</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            background-color: gray;
+            margin: 0;
+        }
+        #box {
+            background-color: blue;
+            padding: 10px 10px 10px 10px;
+            border: 10px solid black;
+            width: 200px;
+            height: 100px;
+            margin-top: 50px;
+            overflow: auto;
+        }
+        #content {
+            background-color: aqua;
+        }
+        h1 {
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Box Model</h1>
+    <div id="box">
+        <div id="content">
+            In web development, the CSS box model refers to how HTML elements are modeled in browser engines and how the dimensions of those HTML elements are derived from CSS properties. It is a fundamental concept for the composition of HTML webpages.
+        </div>
+    </div>
+    <div>In web development, the CSS box model refers to how HTML elements are modeled in browser engines and how the dimensions of those HTML elements are derived from CSS properties. It is a fundamental concept for the composition of HTML webpages.
+    </div>
+</body>
+</html>
